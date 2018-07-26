@@ -1,11 +1,8 @@
 {
   "name": "ykx-tslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "tslint.json",
   "author": "应开翔",
-  "license": "ISC",
-  "devDependencies": {
-    "tslint-react": "3.6.0"
-  }
+  "license": "ISC"
 }
