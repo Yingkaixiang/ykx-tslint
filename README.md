@@ -12,12 +12,20 @@ yarn add ykx-tslint --dev --exact
 
 在你的 `tslint.json` 文件中添加如下代码：
 
+> 根据不同项目可以改变特定的规则
+
 ```json
 {
   "extends": ["ykx-tslint"],
-  "rules": {
-    // 根据不同项目可以改变特定的规则
-    // ...
-  }
+  "rules": {}
 }
 ```
+
+## 历史记录
+
+* v1.0.0
+  * 增加基础规则
+* v1.0.1
+  * 移除 `no-unused-variable`，废弃规则 `TypeScript` 已内置
+  * 移除 `tslint-react` 依赖
+  * 修改错误文档
